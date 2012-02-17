@@ -1,8 +1,10 @@
-database { int /counter = 0 };
+database mydb {
+  int /counter = 0;
+}
 
 function action(_) {
-  /counter <- /counter + 1;
-  #msg = <>Hello, user number {/counter}!</>;
+  /mydb/counter <- /mydb/counter + 1;
+  #msg = <>Hello, user number {/mydb/counter}!</>;
 }
 
 function page() {

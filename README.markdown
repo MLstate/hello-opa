@@ -5,4 +5,6 @@ This is a very simple demo of Opa. It just shows a header "Hello, world" and upo
 
 Compile and run with:
 
-`opa --parser js-like hello-opa.opa`.
+`opa hello-opa.opa --`
+
+More about this example in Opa manual, chapter [A tour of Opa](http://doc.opalang.org/manual/A-tour-of-Opa).

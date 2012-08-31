@@ -7,4 +7,4 @@ Compile and run with:
 
 `opa hello-opa.opa --`
 
-More about this example in Opa manual, chapter [A tour of Opa](http://doc.opalang.org/manual/A-tour-of-Opa).
+More about this example in Opa manual, chapter [Hello, database](https://github.com/MLstate/opalang/wiki/Hello%2C-database).
